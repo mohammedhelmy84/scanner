@@ -1,7 +1,6 @@
-
-@if (session()->get('success'))
-    <div class="alert alert-success my-2 mx-3">
-        <p>{{ session('success') }}</p>
+@if (session()->get('error'))
+    <div class="alert alert-danger my-2 mx-3">
+        <p>{{ session('error') }}</p>
     </div>
     <script>
         setTimeout(function() {

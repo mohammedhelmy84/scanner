@@ -20,11 +20,6 @@
     </li>
 
 
-
-
-
-
-
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
@@ -35,7 +30,7 @@
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">الأقسام المتاحة</h6>
-                <a class="collapse-item" href="register.html">صفحة المستخدم</a>
+                <a class="collapse-item" href="register">صفحة المستخدم</a>
                 <a class="collapse-item" href="categories">صفحة التصنيفات</a>
                 <a class="collapse-item" href="settings">صفحة الإعدادات</a>
             </div>
@@ -44,7 +39,7 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="{{route('auth.logout')}}">
             <i class="las la-sign-out-alt"></i>
             <span>تسجيل خروج</span></a>
     </li>

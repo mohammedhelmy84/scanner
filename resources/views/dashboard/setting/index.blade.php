@@ -12,7 +12,19 @@
 
         <!-- Main Content -->
         <div id="content">
-
+            <div class="container-fluid">
+                @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+            @if (session()->get('success'))
+               @include('dashboard.messages.success')
+            @endif
 
             <!-- Begin Page Content -->
             <div class="container-fluid">
