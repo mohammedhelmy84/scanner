@@ -47,7 +47,7 @@
                                            @enderror
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-user btn-block">
+                                <button type="submit" class="btn btn-primary btn-user btn-block mx-auto" style="width:150px !important;">
                                     تسجيل الحساب
                                 </button>
                                 <hr>
